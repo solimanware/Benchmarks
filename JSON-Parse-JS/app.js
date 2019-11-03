@@ -8,12 +8,12 @@ const BenchmarkMS = (name, block) => {
     console.log(name, 'took', end - start);
     return end - start
 };
-//one time experment
+//one time experiment
 BenchmarkMS('json parsing', () => {
     const json = JSON.parse(JSONstring)
 })
-
-function benchOnScale(name, times, block) {
+//multiple times experiments
+const  benchOnScale = (name, times, block) => {
     let totalTime = 0;
     for (let i = 0; i < times; i++) {
         totalTime = totalTime + BenchmarkMS(name, () => {
