@@ -87,24 +87,30 @@ Here’s the secrets for the JavaScript engines for parsing:
   
   
 
-####    Results:
 
-##### On the “Samsung Exynos 7 Octa 9610 Chipset”
+##    Results:
 
-JSON Serialization:  
-JavaScript Chrome: 150 ms 
+#### On the “Samsung Exynos 7 Octa 9610 Chipset”
 
-Native Kotlin : 400 ms 
+##### JSON Serialization:
+  
 
-Flutter Dart: 900 ms 
+ - JavaScript Chrome: 150 ms  
+ - Native Kotlin : 400 ms  
+ - Flutter Dart: 900
+   ms
+
  
   
 
   
-JSON Search:  
-Native (JVM) (?): 12 ms  
-Ionic (JavaScript) (Merge Sort): 5 ms  
-Flutter (Dart Engine) (?): 3 ms
+##### JSON Search: 
+ 
+
+ - Native (JVM) (?): 12 ms   
+ - Ionic (JavaScript) (Merge Sort): 5 ms  
+ - Flutter (Dart Engine) (?): 3 ms
+
 
 ####    Resources:
 https://v8docs.nodesource.com/node-0.12/da/d6f/classv8_1_1_j_s_o_n.htm
