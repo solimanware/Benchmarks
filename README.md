@@ -1,6 +1,3 @@
-
-
-
 # Cross-platform Apps Out-performing Native Apps
 
 #### Keyword list:
@@ -58,21 +55,21 @@ Let’s test parsing using chrome…
 
 It takes 155ms to do parsing.
 
-![](https://lh3.googleusercontent.com/fgrKyjpoPBAoboA-3vJbFREq2dih2SY9xJO7dZnF2kha9uYOWTYlw2pXvn3VX8zGhh7ZwfZxW2arXWxW5hLBhM3dLVDSa43JHjEmr57_ZouJAp4Ve69FYLUQckgDoIIzVn_D-TOi)
+![enter image description here](https://i.imgur.com/syW6ha5.png)
 
 
 ### Kotlin Android (with sperate thread)
 But while using kotlin parser ([kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization)) 
 gives us 
 400ms.
-
-![](https://lh4.googleusercontent.com/yMV61kqegCIkcITqMUcCBdlH71ee1qee6O6OkaaOsJrjFjVzSRloq-WzilMaokSQfhN54XPLlPyV2dPzZ-YBcNNfb8t1-JVLtiw_CKPVJgRsxxqdTZeRtz54QYPgTE-N4MS4Bv5f)
+![enter image description here](https://i.imgur.com/W3vUKKr.png)
 
 ### Flutter 
-It takes 900ms to do parse and instantiate objects of the type
+It takes 887ms to do parse and instantiate objects of the type
+![enter image description here](https://i.imgur.com/asS50X5.png)
 
 #### SO: is JavaScript faster up to 3 times? 
-Yes and the answer is the implementation of parsing techniques and the limited of JSON is comparing to the JS grammar and here’s the answer that the native language - for example JAVA - shouldn't be faster all the times, and it’s up to the code implementation.
+Yes and the answer is the implementation of parsing techniques and the limited of JSON grammar is compared to the JS grammar and here’s the answer that the native language - for example JAVA - shouldn't be faster all the times, and it’s up to the code implementation.
 
 #####   
 Here’s the secrets for the JavaScript engines for parsing:
@@ -97,8 +94,7 @@ Here’s the secrets for the JavaScript engines for parsing:
 
  - JavaScript Chrome: 150 ms  
  - Native Kotlin : 400 ms  
- - Flutter Dart: 900
-   ms
+ - Flutter Dart: 900 ms
 
  
   
