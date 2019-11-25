@@ -92,8 +92,10 @@ Here’s the secrets for the JavaScript engines for parsing:
 ##### On the “Samsung Exynos 7 Octa 9610 Chipset”
 
 JSON Serialization:  
-Native Kotlin : 400 ms  
-JavaScript Chrome: 150 ms  
+JavaScript Chrome: 150 ms 
+Native Kotlin : 400 ms 
+Flutter Dart: 900 ms 
+ 
   
 
   
