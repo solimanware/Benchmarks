@@ -65,7 +65,7 @@ gives us
 ![enter image description here](https://i.imgur.com/W3vUKKr.png)
 
 ### Flutter 
-It takes 887ms to do parse and instantiate objects of the type
+It takes 887ms to do parse
 ![enter image description here](https://i.imgur.com/asS50X5.png)
 
 #### SO: is JavaScript faster up to 3 times? 
