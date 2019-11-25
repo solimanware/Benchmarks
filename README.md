@@ -1,10 +1,11 @@
 
 
-**Cross-platform Apps Out-performing Native Apps**
+
+# Cross-platform Apps Out-performing Native Apps
 
 #### Keyword list:
 
-Cross-platform, Hybrid, Native, Ionic, Java, Kotlin, Cordova, JavaScript, Angular, Typescript, Chrome, v8 engine, chromium, webkit, safari, Android, iOS.
+Cross-platform, Hybrid, Native, Ionic, Java, Kotlin, Cordova, JavaScript, Angular, Typescript, Chrome, v8 engine, chromium, webkit, safari, Android, iOS, Flutter, Dart, Async, Threading, Parsing.
 
   
 
@@ -67,10 +68,11 @@ gives us
 
 ![](https://lh4.googleusercontent.com/yMV61kqegCIkcITqMUcCBdlH71ee1qee6O6OkaaOsJrjFjVzSRloq-WzilMaokSQfhN54XPLlPyV2dPzZ-YBcNNfb8t1-JVLtiw_CKPVJgRsxxqdTZeRtz54QYPgTE-N4MS4Bv5f)
 
-
+### Flutter 
+It takes 900ms to do parse and instantiate objects of the type
 
 #### SO: is JavaScript faster up to 3 times? 
-Yes and the answer is the implementation of parsing techniques and here’s the answer that the native language shouldn't be faster all the times, and it’s up to the code implementation.
+Yes and the answer is the implementation of parsing techniques and the limited of JSON is comparing to the JS grammar and here’s the answer that the native language - for example JAVA - shouldn't be faster all the times, and it’s up to the code implementation.
 
 #####   
 Here’s the secrets for the JavaScript engines for parsing:
@@ -99,3 +101,27 @@ JSON Search:
 Native (JVM) (?): 12 ms  
 Ionic (JavaScript) (Merge Sort): 5 ms  
 Flutter (Dart Engine) (?): 3 ms
+
+####    Resources:
+https://v8docs.nodesource.com/node-0.12/da/d6f/classv8_1_1_j_s_o_n.htm
+
+[https://gist.github.com/abhi-bit/09d0010e20d8acbbc6de2a136fdabffc](https://gist.github.com/abhi-bit/09d0010e20d8acbbc6de2a136fdabffc)
+
+[https://chromium.googlesource.com/v8/v8/+/refs/heads/5.8.288/src/json-parser.h](https://chromium.googlesource.com/v8/v8/+/refs/heads/5.8.288/src/json-parser.h)
+
+[http://trac.webkit.org/browser/trunk/JavaScriptCore/runtime/JSONObject.cpp?rev=56189](http://trac.webkit.org/browser/trunk/JavaScriptCore/runtime/JSONObject.cpp?rev=56189)
+
+[https://www.youtube.com/watch?v=ff4fgQxPaO0](https://www.youtube.com/watch?v=ff4fgQxPaO0)
+
+[https://www.youtube.com/watch?v=7Rrv9qFMWNM](https://www.youtube.com/watch?v=7Rrv9qFMWNM)
+
+[https://www.youtube.com/watch?v=3tWSG_ftHiU](https://www.youtube.com/watch?v=3tWSG_ftHiU)
+
+[https://github.com/flutter/flutter/wiki/The-Engine-architecture](https://github.com/flutter/flutter/wiki/The-Engine-architecture)
+
+[https://blog.discordapp.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502](https://blog.discordapp.com/how-discord-achieves-native-ios-performance-with-react-native-390c84dcd502)
+
+[https://web.dev/fast](https://web.dev/fast)
+
+http://v8.dev/
+
