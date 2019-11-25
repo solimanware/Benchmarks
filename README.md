@@ -93,7 +93,9 @@ Here’s the secrets for the JavaScript engines for parsing:
 
 JSON Serialization:  
 JavaScript Chrome: 150 ms 
+
 Native Kotlin : 400 ms 
+
 Flutter Dart: 900 ms 
  
   
